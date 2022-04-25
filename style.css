@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color: red;
+  --primary-color:#6c1d70;
   --off-white: #f3f4f6;
-  --dark-gray: #6b7280;
+  --dark-gray: rgb(7, 27, 67);
 }
 
 body {
-  font-family: "Comic Sans", sans-serif;
+  font-family: "Comic Sans";
+  color: rgb(7, 27, 67);
   margin: 0px auto;
-  max-width: 85%;
+  max-width: 95%;
   width: 100%;
 }
 
@@ -38,14 +39,14 @@ hr {
 .link {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
 }
 
 .link-primary {
   max-width: 140px;
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
-  color: #fff;
+  color: #f3f4f6;
   margin: 1rem auto;
   border-radius: 2rem;
 }
@@ -190,7 +191,7 @@ hr {
   padding-bottom: 6rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 150px) {
   body {
     max-width: 95%;
     width: 100%;
