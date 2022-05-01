@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 :root {
   --primary-color: rgb(186, 111, 239);
   --off-white: rgb(186,111,239);
@@ -108,8 +108,10 @@ hr {
 /** header **/
 
 .hero {
-  padding: 2rem;
-  padding-top: 5rem;
+  
+  text-align: center;
+  padding: 3rem;
+  padding-top: 3rem;
 }
 
 .hero .hero-img{
