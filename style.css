@@ -2,13 +2,13 @@
 
 :root {
   --primary-color: rgb(186, 111, 239);
-  --off-white: #f3f4f6;
-  --dark-gray: rgb(7, 27, 67);
+  --off-white: rgb(186,111,239);
+  --dark-gray: black;
 }
 
 body {
   font-family: "Lucida Console";
-  color: rgb(7, 27, 67);
+  color: black;
   margin: 0px auto;
   max-width: 95%;
   width: 100%;
@@ -46,7 +46,7 @@ hr {
   max-width: 140px;
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
-  color: #f3f4f6;
+  color: black;
   margin: 1rem auto;
   border-radius: 2rem;
 }
@@ -78,7 +78,7 @@ hr {
 
 .navigation {
   background-color: var(--primary-color);
-  color: white;
+  color: black;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -98,7 +98,7 @@ hr {
 }
 
 .navigation .link {
-  color: white;
+  color: black;
 }
 
 .navigation .link-active {
@@ -112,7 +112,7 @@ hr {
   padding-top: 5rem;
 }
 
-.hero .hero-img {
+.hero .hero-img{
   max-width: 80%;
   width: 550px;
   display: block;
@@ -152,12 +152,12 @@ hr {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: white;
+  color: black;
   border-top-right-radius: 1rem;
 }
 
 .footer .link {
-  color: white;
+  color: black;
 }
 
 .footer .footer-header {
