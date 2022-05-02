@@ -26,7 +26,8 @@ hr {
 
 /** container **/
 .container {
-  padding: 0rem 1rem;
+  padding: 0rem 3rem;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .container-center {

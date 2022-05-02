@@ -5,6 +5,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
     background-color:rgb(186, 111, 239);
+    padding: 20px;
 }
 html {
     box-sizing: border-box;
