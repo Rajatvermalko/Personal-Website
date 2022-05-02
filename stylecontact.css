@@ -3,14 +3,23 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px;
-    background-color:rgb(186, 111, 239);
-    padding: 20px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 0 20px 20px 0 rgba(186,111,239);
+    padding: 5px;
 }
+
 html {
     box-sizing: border-box;
-  }
-  
-.goback1{
+}
+
+.goback1 {
     text-align: center;
 }
+.block {
+    padding: 3% ;
+    text-align: center;
+    background-color: rgb(186, 111, 239);
+    color: black;
+    
+  }
