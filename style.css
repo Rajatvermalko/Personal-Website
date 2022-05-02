@@ -50,6 +50,7 @@ hr {
   color: black;
   margin: 1rem auto;
   border-radius: 2rem;
+  border-color: black;
 }
 
 .link-secondary {
@@ -57,8 +58,9 @@ hr {
   margin: 1rem;
   padding: 0.6rem 1.2rem;
   border-radius: 2rem;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  border: 1px solid var(black);
+  color: var(--dark-gray);
+  border-color: black;
 }
 
 /** look into BEM naming convention for CSS **/
