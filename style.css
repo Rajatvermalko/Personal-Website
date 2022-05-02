@@ -12,26 +12,27 @@ body {
   margin: 0px auto;
   max-width: 95%;
   width: 100%;
+
 }
 
 hr {
-  margin: 2.5rem 0rem;
+  margin: 1.5rem 0rem;
 }
 
 /** spaces **/
 
 .margin-md {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 /** container **/
 .container {
-  padding: 0rem 3rem;
+  padding: 0rem 1.5rem;
   box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .container-center {
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   margin: auto;
 }
@@ -46,11 +47,10 @@ hr {
 .link-primary {
   max-width: 140px;
   padding: 0.6rem 1.2rem;
-  background-color: var(--primary-color);
+  background-color: var(--off-white);
   color: black;
   margin: 1rem auto;
   border-radius: 2rem;
-  border-color: black;
 }
 
 .link-secondary {
@@ -60,7 +60,6 @@ hr {
   border-radius: 2rem;
   border: 1px solid var(black);
   color: var(--dark-gray);
-  border-color: black;
 }
 
 /** look into BEM naming convention for CSS **/
@@ -113,15 +112,16 @@ hr {
 .hero {
   
   text-align: center;
-  padding: 3rem;
-  padding-top: 3rem;
+  padding: 1.5rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img{
-  max-width: 80%;
-  width: 550px;
+  max-width: 100%;
+  width: 1000px;
   display: block;
   margin: auto;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .hero .hero-heading {
@@ -137,10 +137,11 @@ hr {
 /** sections **/
 
 .section {
-  padding: 2rem;
-  margin: 2rem 0;
+  padding: 1rem;
+  margin: 2.5rem 1rem;
   border-radius: 1rem;
   text-align: center;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .section h1 {
@@ -155,7 +156,7 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 1.2rem 1rem;
   text-align: center;
   color: black;
   border-top-right-radius: 1rem;
@@ -163,15 +164,18 @@ hr {
 
 .footer .link {
   color: black;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .footer .footer-header {
   font-weight: bold;
   font-size: large;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .footer ul {
   padding-inline-start: 0px;
+  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 /** projects **/
