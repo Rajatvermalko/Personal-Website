@@ -5,7 +5,6 @@ body {
     margin: 0;
   }
   
-  
   html {
     box-sizing: border-box;
   }
@@ -19,6 +18,10 @@ body {
     box-sizing: inherit;
     text-align: center;
     }
+    .list-item-inline {
+      display: inline;
+      padding: 0rem 0.5rem;
+    }
   
   .column {
     float: left;
@@ -26,7 +29,11 @@ body {
     margin-bottom: 15px;
     padding: 50px 50px;
   }
-  
+  .navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+  }
+
   .card {
     box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
     margin: 25px;
@@ -34,6 +41,7 @@ body {
   }
   
   .about-section {
+    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
     padding: 50px;
     text-align: center;
     background-color: rgb(186, 111, 239);
@@ -78,3 +86,4 @@ body {
       display: block;
     }
   }
+  
