@@ -63,3 +63,27 @@ html {
     color: black; 
     box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
   }
+  footer {
+    background-color: var(--primary-color);
+    padding: 1.2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link {
+    color: black;
+    box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+    box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+  }
+  
