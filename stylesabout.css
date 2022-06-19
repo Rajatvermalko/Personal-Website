@@ -11,10 +11,6 @@ body {
     height: 100%;
     padding: 1.5px;
   }
-  
-  *, *:before, *:after {
-   
-  }
   .navigation-container{
     background-color: rgba(186, 111, 239) ;
     color: black;
@@ -25,6 +21,7 @@ body {
   }
   .navigation-container .link{
     color: black;
+    
   }
 
   .goback{
@@ -40,7 +37,7 @@ body {
     .link:hover {
       background-color: blue;
     }  
-  
+
   .column {
     float: left;
     width: 33.3%;
