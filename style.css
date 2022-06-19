@@ -24,6 +24,9 @@ hr {
 .margin-md {
   margin: 1rem;
 }
+.link:hover {
+  background-color: blue;
+}  
 
 /** container **/
 .container {
