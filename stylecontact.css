@@ -18,17 +18,7 @@ body {
     color: black;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
     }
-  
-  .navigation .nav-brand {
-    font-weight: bold;
-  }
-  
-  .nav-brand a {
-    text-decoration: none;
-    color: inherit;
-  }
   
   .navigation .nav-pills {
     text-align: right;
@@ -41,26 +31,23 @@ body {
   
   .navigation .link-active {
     font-weight: bold;
+    font-size: large;
   }
 
 html {
     box-sizing: border-box;
-    height: 120%;
+    height: 200%;
     
-}
-
-.goback1 {
-    text-align: center;
 }
 
 /** Contact details bar **/
 
 .block {
-    padding: 3% ;
+    padding: 5% ;
     text-align: center;
     background-color: white;
+    width: 1700px;
     color: black; 
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
   }
 
   /** footer **/
