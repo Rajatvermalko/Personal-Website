@@ -47,22 +47,24 @@ html {
     box-sizing: border-box;
     height: 120%;
     
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
 }
 
 .goback1 {
     text-align: center;
-    
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
 }
+
+/** Contact details bar **/
+
 .block {
-  text-align: inherit;
     padding: 3% ;
     text-align: center;
-    background-color: rgb(186, 111, 239);
+    background-color: white;
     color: black; 
     box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
   }
+
+  /** footer **/
+
   footer {
     background-color: var(--primary-color);
     padding: 1.2rem 1rem;
@@ -83,7 +85,7 @@ html {
   }
   
   .footer ul {
-    padding-inline-start: 0px;
-    box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+    padding-inline-start: 15px;
+    
   }
   
