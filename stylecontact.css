@@ -3,7 +3,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100%;
-    background-color: white;
 }
 .list-item-inline {
     display: inline;
@@ -15,7 +14,7 @@ body {
     padding: 2.2rem;
     border-bottom-left-radius: 1rem;
     box-shadow: rgba(186, 111, 239);
-    
+
   }
   
   .navigation-container .nav-pills {
