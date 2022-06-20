@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 :root {
-  --primary-color: rgb(186, 111, 239);
-  --off-white: rgb(186,111,239);
+  --primary-color:#816797;
+  --off-white: #816797;
   --dark-gray: black;
 }
 
 body {
   font-family: "Lucida Console";
   color: black;
-  margin: 0px auto;
-  max-width: 95%;
+  margin: 0;
+  max-width: 100%;
   width: 100%;
-
+background-image: url("images/hero.jpg");
 }
 
 hr {
@@ -25,7 +25,7 @@ hr {
   margin: 1rem;
 }
 .link:hover {
-  background-color: blue;
+  background-color: whitesmoke;
 }  
 
 /** container **/
@@ -108,27 +108,24 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
+  color: white;
 }
 
 /** header **/
 
 .hero {
-  
+  margin: auto;
   text-align: center;
-  padding: 1.5rem;
-  padding-top: 5rem;
 }
 
 .hero .hero-img{
-  max-width: 100%;
-  width: 1000px;
-  display: block;
-  margin: auto;
-  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+  margin-left: 0;
+  clear: left;
 }
 
 .hero .hero-heading {
   text-align: center;
+  margin: 6em;
   padding-top: 1rem;
   color: var(--dark-gray);
 }
@@ -144,7 +141,6 @@ hr {
   margin: 2.5rem 1rem;
   border-radius: 1rem;
   text-align: center;
-  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .section h1 {
@@ -167,18 +163,16 @@ hr {
 
 .footer .link {
   color: black;
-  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+
 }
 
 .footer .footer-header {
   font-weight: bold;
   font-size: large;
-  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 .footer ul {
   padding-inline-start: 0px;
-  box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
 }
 
 /** projects **/
