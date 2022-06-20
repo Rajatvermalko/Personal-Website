@@ -32,6 +32,7 @@ hr {
 .container {
   padding: 0rem 1.5rem;
   box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
+  margin-bottom: 2em;
 }
 
 .container-center {
@@ -64,7 +65,16 @@ hr {
   border: 1px solid var(black);
   color: var(--dark-gray);
 }
-
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: white;
+}
+h4{
+  text-align: center;
+}
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
