@@ -23,21 +23,21 @@ body {
     color: black;
   }
 
-  .goback{
+  .goback
+  {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     box-sizing: inherit;
     text-align: center;
     }
-    .list-item-inline {
+    .list-item-inline 
+    {
       display: inline;
       padding: 0rem 0.5rem;
     }
-    .link:hover {
-      background-color: white;
-    }  
-
-  .column {
+   
+  .column 
+  {
     float: left;
     width: 33%;
     margin-bottom: 15px;
@@ -117,13 +117,11 @@ body {
   .footer .link {
     color: black;
   }
-  .link:hover {
-    background-color: blue;
-  }
 
-  
   .footer .footer-header {
     font-weight: bold;
     font-size: large;
   }
-  
+  .link:hover {
+    background-color: white;
+  }
