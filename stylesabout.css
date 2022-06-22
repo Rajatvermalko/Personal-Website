@@ -12,7 +12,7 @@ body {
     padding: 1.5px;
   }
   .navigation-container{
-    background-color: rgba(186, 111, 239) ;
+    background-color: #816797;
     color: black;
     padding: 2.2rem;
     border-bottom-left-radius: 1rem;
@@ -76,7 +76,7 @@ body {
   }
   
   .title {
-    color: rgb(186, 111, 239);;
+    color: #816797;;
   }
   
   .button {
@@ -102,7 +102,7 @@ body {
   }
   
   .footer {
-    background-color:rgba(186, 111, 239) ;
+    background-color:#816797 ;
     padding: 1.4em ;
     text-align:center;
     color: black;
