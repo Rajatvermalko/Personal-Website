@@ -19,7 +19,7 @@ html {
   .navigation-container{
     background-color: #816797;;
     color: black;
-    padding: 2.2rem;
+    padding: 1.3rem;
     box-shadow: rgba(186, 111, 239);
 
   }
@@ -42,7 +42,7 @@ html {
 /** Contact details bar **/
 
 .block {
-  margin-top: 12em;
+  margin-top: 3.7em;
     text-align: center;
     width: 100%;
     color: black; 
@@ -53,15 +53,11 @@ html {
 
   footer {
     background-color: #816797;
-    padding: 6em ;
+    padding: 1em ;
     text-align: center;
     color: black;
-    border-top-right-radius: 1rem;
+    margin: 0.7cm 0cm 0cm 0cm;
     box-sizing: border-box;
-    position: absolute;
-    margin: 20px 0px 5px 5px;
-    width: 100%;
-    height: 5px;
     box-shadow: 0 20px 28px 0 rgba(186, 111, 239);
   }
   
@@ -71,8 +67,6 @@ html {
   .link:hover {
     background-color: white;
   }
-
-  
   .footer .footer-header {
     font-weight: bold;
     font-size: large;
