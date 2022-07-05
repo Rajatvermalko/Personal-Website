@@ -2,25 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 100%;
     margin: 0;
     background-image: url("images/back.jpeg");
 }
 
 html {
   box-sizing: border-box;
-  height: 100%;
   padding: 1.5px;
 }
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0.75rem;
   }
   .navigation-container{
     background-color: #816797;;
     color: black;
     padding: 1.3rem;
-    box-shadow: rgba(186, 111, 239);
+    box-shadow: 0 0 35px 0 rgba(186, 111, 239);
 
   }
   
@@ -42,7 +40,7 @@ html {
 /** Contact details bar **/
 
 .block {
-  margin-top: 3.7em;
+  margin-top: 3.45em;
     text-align: center;
     width: 100%;
     color: black; 
@@ -53,12 +51,12 @@ html {
 
   footer {
     background-color: #816797;
-    padding: 1em ;
+    padding: 0.75em ;
     text-align: center;
     color: black;
-    margin: 0.7cm 0cm 0cm 0cm;
+    margin: 1cm 0cm 0cm 0cm;
     box-sizing: border-box;
-    box-shadow: 0 20px 28px 0 rgba(186, 111, 239);
+    box-shadow: 28px 0 0 0 rgba(186, 111, 239);
   }
   
   .footer .link {

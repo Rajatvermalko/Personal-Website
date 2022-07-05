@@ -24,7 +24,6 @@ body {
   .goback
   {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     box-sizing: inherit;
     text-align: center;
     }
@@ -47,7 +46,7 @@ body {
   }
 
   .card {
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
+    box-shadow: 10px 25px 28px 10px rgba(186, 111, 239);
     margin: auto;
     padding: 15px 15px;
   }
@@ -55,7 +54,7 @@ body {
   float: left;
  } 
   .about-section {
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
+    box-shadow: 25px 25px 25px 25px rgba(186, 111, 239);
     padding: 50px;
     text-align: center;
     background-color:white;
@@ -110,7 +109,7 @@ body {
     position: absolute;
     margin: 450px auto;
     width: 100%;
-    box-shadow: 0 25px 28px 0 rgba(186, 111, 239);
+    box-shadow: 28px 25px 0 0 rgba(186, 111, 239);
   }
   .footer .link {
     color: black;
