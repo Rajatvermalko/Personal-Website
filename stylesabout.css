@@ -3,19 +3,19 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin: 0;
+    background-color: whitesmoke;
   }
   
   html {
     box-sizing: border-box;
     height: 100%;
-    padding: 1.5px;
+    padding: 1px;
   }
   .navigation-container{
     background-color: #816797;
     color: black;
-    padding: 2.2rem;
-    border-bottom-left-radius: 1rem;
-    box-shadow: rgba(186, 111, 239);
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
   }
   .navigation-container .link{
     color: black;
@@ -30,7 +30,7 @@ body {
     .list-item-inline 
     {
       display: inline;
-      padding: 0rem 0.5rem;
+      padding: 0rem 0.75rem;
     }
    
   .column 
@@ -42,7 +42,7 @@ body {
   }
   .navigation-container .nav-pills {
     text-align: right;
-    margin: 0.6rem 1rem;
+    margin: 1em 1em 1em 1em;
   }
 
   .card {
@@ -54,10 +54,9 @@ body {
   float: left;
  } 
   .about-section {
-    box-shadow: 25px 25px 25px 25px rgba(186, 111, 239);
     padding: 50px;
     text-align: center;
-    background-color:white;
+    background-color: whitesmoke;
     color: black;
   }
   
@@ -101,7 +100,7 @@ body {
   
   .footer {
     background-color:#816797 ;
-    padding: 1.4em ;
+    padding: 0.7em ;
     text-align:center;
     color: black;
     box-sizing: border-box;
