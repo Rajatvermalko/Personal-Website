@@ -35,7 +35,7 @@ hr {
 
 /** container **/
 .container {
-  padding: 0rem 1.5rem;
+  padding: 0rem 1.2rem;
   box-shadow: 0 25px 20px 0 rgba(186, 111, 239);
   margin-bottom: 2em;
 }
@@ -110,7 +110,7 @@ h4{
 
 .navigation .nav-pills {
   text-align: right;
-  margin: 0.6rem 1rem;
+  margin: 0.05rem 0.2rem;
 }
 
 .navigation .link {
@@ -166,7 +166,7 @@ h4{
 
 .footer {
   background-color: var(--primary-color);
-  padding: 1.2rem 1rem;
+  padding: 0.6rem 0.5rem;
   text-align: center;
   color: black;
   border-top-right-radius: 1rem;
