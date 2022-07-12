@@ -13,6 +13,7 @@ body {
   max-width: 100%;
   width: 100%;
 background-image: url("images/hero.jpg");
+background-image: fixed;
 }
 
 hr {
