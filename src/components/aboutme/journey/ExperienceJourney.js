@@ -34,53 +34,68 @@ function ExperienceJourney() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
-          date="2023 - Continuing"
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)",paddingLeft:"20px" }}
+          date="&nbsp; &nbsp; &nbsp; &nbsp;Aug 2022 - Jan 2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Study World
+            Software Developer Intern
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Branch Manager & Student Counsellor
+            Thrymr Software
           </h6>
-          <p>• Provide Education Counselling to students and guardians for study abroad.</p>
-          <p>• Providing information about Universities/Colleges, Course/Fees, Admissions, Visa procedures etc.</p>
-          <p>• Effective follow-ups with the prospective students/guardians.</p>
-          <p>• Provide daily, Weekly, monthly, and yearly reporting about all operational activities.</p>
-          <p>• Processing student visa applications based on entry requirements and admissions procedures and 
-            enhance their chances of success in interviews by developing their skills.</p>
-          <p>• Preparing applications for admission into different foreign universities.</p>
+          <p>• Frontend Development: Actively contributed to frontend projects, crafting engaging user interfaces with HTML, CSS, and JavaScript.</p>
+          <p>• Responsive Design: Ensured seamless user experiences across devices by implementing responsive design principles and leveraging media queries.</p>
+          <p>• Frameworks: Utilized React.js and Angular.js to build dynamic and interactive components, enhancing the functionality of web applications.</p>
+          <p>• Version Control: Managed codebase changes efficiently with Git, enabling smooth collaboration and version tracking among team members.</p>
+          <p>• Bug Fixing: Identified and resolved bugs to maintain product quality, ensuring smooth operation and user satisfaction.</p>
+          <p>• Continuous Learning: Demonstrated a commitment to ongoing learning, staying updated with the latest web development trends and technologies.</p>
+          <p>• Team Collaboration: Worked closely with cross-functional teams, contributing ideas and solutions to create innovative web solutions.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021 - 2022"
+          date="Feb 2023 - Feb 2024"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
+          Software Developer
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Management of Information System
+            Thrymr Software
           </h6>
-          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
-            data to facilitate the achievement of organizational aims and objectives.</p>
-          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
-            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
-          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
-            effective communication between the company and employees.</p>
-          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
-            and providing corresponding reports to top management.</p>
-          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
-            and year-end closing, and submitting reports in accordance with management requirements.</p>
-          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
-            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
+          <p>• Full Stack Development: Expertly developed web applications using both MERN and MEAN stacks, demonstrating proficiency in frontend and backend technologies.</p>
+          <p>• MERN/MEAN Expertise: Leveraged MongoDB,PostGreSQL for database management, Express.js for backend development, and either React.js or Angular.js for frontend development, along with Node.js for server-side scripting.</p>
+          <p>• Agile Methodologies: Worked within Agile development environments, participating in sprint planning, stand-up meetings, and retrospective sessions to ensure timely delivery of high-quality software.</p>
+          <p>• API Development: Developed robust APIs to facilitate seamless communication between frontend and backend systems, adhering to RESTful principles for efficient data exchange.</p>
+          <p>• Troubleshooting and Optimization: Proactively identified and resolved technical issues, and optimized application performance through code refactoring, caching mechanisms, and database indexing.</p>
+          <p>• Collaboration and Communication: Collaborated effectively with multidisciplinary teams, including designers, frontend developers, and QA engineers, and communicated technical concepts clearly to non-technical stakeholders.</p>
         </VerticalTimelineElement>
-
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)",paddingLeft:"20px" }}
+          date="&nbsp; &nbsp; &nbsp; &nbsp;Mar 2024 - Present"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Senior Software Developer
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            Thrymr Software
+          </h6>
+          <p>• Frontend Development: Actively contributed to frontend projects, crafting engaging user interfaces with HTML, CSS, and JavaScript.</p>
+          <p>• Responsive Design: Ensured seamless user experiences across devices by implementing responsive design principles and leveraging media queries.</p>
+          <p>• Frameworks: Utilized React.js and Angular.js to build dynamic and interactive components, enhancing the functionality of web applications.</p>
+          <p>• Version Control: Managed codebase changes efficiently with Git, enabling smooth collaboration and version tracking among team members.</p>
+          <p>• Bug Fixing: Identified and resolved bugs to maintain product quality, ensuring smooth operation and user satisfaction.</p>
+          <p>• Continuous Learning: Demonstrated a commitment to ongoing learning, staying updated with the latest web development trends and technologies.</p>
+          <p>• Team Collaboration: Worked closely with cross-functional teams, contributing ideas and solutions to create innovative web solutions.</p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}

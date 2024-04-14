@@ -99,8 +99,8 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
-      <Projects />
+      {/* <Certification /> */}
+      {/* <Projects /> */}
       <Contactus />
     </section>
   );
