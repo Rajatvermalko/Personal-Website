@@ -87,7 +87,7 @@ export default function Home() {
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./profile.png"
+                      src="public\rajat.jpeg"
                       alt="home pic"
                       className="img-fluid"
                     />
