@@ -18,7 +18,7 @@ export default function Ranking() {
       </Zoom>
       <Container className="mt-5">
         <Row className="g-5">
-          <Col md={3}>
+          {/* <Col md={3}>
             <a
               href="https://www.hackerrank.com/MD_MAFUJUL_HASAN"
               target="_blank"
@@ -77,7 +77,7 @@ export default function Ranking() {
                 <SiCodeforces />
               </Zoom>
             </a>
-          </Col>{" "}
+          </Col>{" "} */}
         </Row>
       </Container>
     </div>
